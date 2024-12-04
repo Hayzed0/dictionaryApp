@@ -70,7 +70,7 @@ const App = () => {
       {words && (
         <div className="w-full my-4 mx-2 items-start md:w-1/2">
           <h3 className=" mx-4 text-xl font-bold">
-            {words.word}{" "}
+            {words.word}
             <button 
             onClick={getAudioSound}
             className="mx-2 my-2">
